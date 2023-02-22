@@ -1,34 +1,8 @@
-03:43:54 **** Incremental Build of configuration Debug for project ex1 ****
+04:16:53 **** Rebuild of configuration Debug for project ex7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
-..\src\ex1.c: In function 'main':
-..\src\ex1.c:15:9: warning: character constant too long for its type
-  printf('C programming/r/n')
-         ^~~~~~~~~~~~~~~~~~~
-..\src\ex1.c:15:9: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
-In file included from ..\src\ex1.c:11:0:
-c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'int'
- _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
-                                      ^~~~~~
-..\src\ex1.c:16:2: error: expected ';' before 'return'
-  return EXIT_SUCCESS;
-  ^~~~~~
-03:44:02 **** Incremental Build of configuration Debug for project ex1 ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
+04:17:03 **** Incremental Build of configuration Debug for project ex7 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
-gcc -o ex1.exe "src\\ex1.o" 
-03:44:25 **** Incremental Build of configuration Debug for project ex1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
-..\src\ex1.c: In function 'main':
-..\src\ex1.c:15:25: error: 'r' undeclared (first use in this function)
-  printf("C programming"/r/n);
-                         ^
-..\src\ex1.c:15:25: note: each undeclared identifier is reported only once for each function it appears in
-..\src\ex1.c:15:27: error: 'n' undeclared (first use in this function)
-  printf("C programming"/r/n);
-                           ^
-03:45:21 **** Incremental Build of configuration Debug for project ex1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex1.o" "..\\src\\ex1.c" 
-gcc -o ex1.exe "src\\ex1.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex7.o" "..\\src\\ex7.c" 
+gcc -o ex7.exe "src\\ex7.o" 
