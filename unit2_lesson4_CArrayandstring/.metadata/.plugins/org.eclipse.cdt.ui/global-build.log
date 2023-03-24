@@ -1,0 +1,4 @@
+Info: Nothing to build for hw1
+01:12:26 **** Incremental Build of configuration Debug for project hw1 ****
+Info: Internal Builder is used for build
+gcc -o hw1.exe "src\\hw1.o" 

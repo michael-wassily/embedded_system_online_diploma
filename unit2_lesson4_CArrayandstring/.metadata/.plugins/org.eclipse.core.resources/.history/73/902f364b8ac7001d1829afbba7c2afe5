@@ -1,0 +1,50 @@
+/*
+ ============================================================================
+ Name        : hw1.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+int main(void) {
+	int i,j;
+	float c[2][2],a[2][2],b[2][2];
+	printf("enter the elements of matrix number 1");
+		for(i=0;i<2;i++){
+			for(j=0;j<2;j++)
+			{
+				printf("enter x%d%d:",i+1,j+1);
+				scanf("%f",&a[i][j]);
+			}
+		}
+		printf("enter the elements of matrix number 2");
+				for(i=0;i<2;i++){
+					for(j=0;j<2;j++)
+					{
+						printf("enter x%d%d:",i+1,j+1);
+						scanf("%f",&b[i][j]);
+		for(i=0;i<2;i++){
+
+						for(j=0;j<2;j++)
+						{
+							c[i][j]=a[i][j]+b[i][j];
+						}
+
+
+	}
+	printf("\nsum of matrix:");
+	for(i=0;i<2;i++){
+
+				for(j=0;j<2;j++)
+				{
+					printf("%.1f\t:",c[i][j]);
+				}
+			}
+return 0;
+}
